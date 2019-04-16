@@ -1,0 +1,210 @@
+*{
+	box-sizing: border-box;
+}
+#page-container{
+ 	position: relative;
+ 	min-height: 100%;
+ }
+ #content{
+ 	padding-bottom: 2.5rem;
+ }
+
+
+body{
+	background: url("https://thedesignlove.com/wp-content/uploads/2012/09/TDL-Pattern-03.jpg");
+ 	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    background-image: url("https://images.askmen.com/1080x540/2018/06/18-025641-smart_home_automation_for_beginners.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+td{
+	background-color: white;
+	border-color: rgba(0,0,0,0);
+	border-radius: 10px;
+	width: 100px;
+}
+h1{
+	font-size: 50px;
+}
+h1 span{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+h2{
+	font-weight: bold;
+}
+h4 span{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+h5 span{
+	background-color: white;
+	border-radius: 10px;
+}
+.borderA iframe, .borderH iframe{
+	float: right;
+	margin: 5px;
+	max-width: 100%;
+}
+.borderG iframe, .borderS iframe{
+	float: left;
+	margin: 5px;
+	max-width: 100%;
+}
+
+.fa-amazon{
+	color: #ff9900;
+}.fa-google{
+	color: #4285F4;
+}.fa-apple{
+	color: black;
+}.fa-android	{
+	color: #78C257;
+}
+table{
+	text-align: center;
+	float: right;
+	border-color: rgba(0,0,0,0);
+}
+
+
+button.btn{
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #3399ff;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.btn:hover span {
+  padding-right: 25px;
+}
+
+button.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.pro{
+	display: block;
+	color: green;
+	float: left;
+	padding-right: 5px;
+}
+.con{
+	display: block;
+	color: red;
+	float: left;
+}
+
+
+.borderA ,.borderH{
+	float: left;
+  	padding: 5px;
+	border: 1px solid grey;
+	padding-top: 15px;
+	border-radius: 25px;
+	padding-bottom: 45px;
+	background-color: white;
+	width: 95%;
+	padding-right: 10px;
+	height: 380px;
+	margin-bottom: 20px;
+}
+.borderG ,.borderS{
+  	float: right;
+  	padding: 5px;
+	border: 1px solid grey;
+	padding-top: 15px;
+	border-radius: 25px;
+	padding-bottom: 45px;
+	background-color: white;
+	width: 95%;
+	padding-right: 10px;
+	height: 380px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 992px){
+	.borderA, .borderH, .borderG, .borderS{
+		width: 100%;
+	}
+	h1, h4{
+		color: black;
+	}
+	.pro, .con{
+		display: none;
+	}
+}
+@media screen and (max-width: 772px){
+	.borderA, .borderH, .borderG, .borderS, h5{
+	font-size: 12px;
+
+	}
+	td{
+		width: 40px;
+		height:30px;
+	}
+	h1, h4{
+		font-size: 20px;
+	}
+	p{
+		font-size: 14px;
+	}
+	
+}
+
+#footer{
+	position: relative;
+  	bottom: 0;
+    width: 100%;
+	clear: both;
+	background-color: #efefef;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}	
+.footer-links a{
+	margin:0 10px 0 10px;
+}
+.footer-links a:hover{
+	font-weight: bold;
+	color: orange;
+
+}

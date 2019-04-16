@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://thedesignlove.com/wp-content/uploads/2012/09/TDL-Pattern-03.jpg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 5px; 
+  padding: 30px;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+a#submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a#submit:hover {
+  background-color: #45a049;
+}
+
+
+#footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  background-color: #efefef;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+} 
+.footer-links a{
+  margin:0 10px 0 10px;
+}
+.footer-links a:hover{
+  font-weight: bold;
+  color: orange;
+
+}

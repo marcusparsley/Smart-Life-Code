@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url("https://thedesignlove.com/wp-content/uploads/2012/09/TDL-Pattern-03.jpg");
+  	margin: 0;
+  	padding-bottom: 6rem;
+ 	position: relative;
+ 	min-height: 100%;
+ 	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+	font-size: 50px;
+}
+.container{
+    margin-top: 30px;
+}
+p.thermo{
+	background-color: white;
+	border-radius: 10px;
+}
+hr{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.column {
+  width: 32.33%;
+  margin: 4px;
+  float: left;
+  text-align: center;
+
+}
+.column:hover{
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.jumbotron{
+    margin-top: 20px;
+    background-image: url("https://switcher-production.imgix.net/images/images/1044-nest-device-electric-ireland-6694c74b8f22ef54e6d5fa55aa04602d.jpg?auto=format%2Ccompress&fit=max&crop=faces%2Centropy&w=755");
+    background-size: cover;
+    text-align: right;
+    color: #fcf9f9
+}
+.desc{
+	text-align: center;
+	padding: 15px
+}
+div .column img{
+	height: auto;
+	float: left;
+	width: 100%
+	margin:2.5px;
+	border-radius: 10px;
+}
+
+a#desc{
+	color: black;
+}
+a#desc:hover{
+	font-size: bold;
+	color: orange;
+}
+@media screen and (max-width: 992px){
+	.column{
+	width: 48.5%;
+  	margin: 4px;
+  	float: left;
+  	text-align: center;
+	}
+
+}
+@media screen and (max-width: 577px){
+	.column{
+	width: 99%;
+  	margin: 4px;
+  	float: left;
+  	text-align: center;
+	}
+
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.footer-links a{
+	margin:0 10px 0 10px;
+}
+.footer-links a:hover{
+	font-weight: bold;
+	color: orange;
+}
