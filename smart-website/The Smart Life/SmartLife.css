@@ -13,6 +13,7 @@
 body{
 	background: url("https://thedesignlove.com/wp-content/uploads/2012/09/TDL-Pattern-03.jpg");
  	font-family: "Helvetica Neue", Arial, sans-serif;
+ 	line-height: 1.4;
 }
 
 .container{
@@ -185,7 +186,19 @@ button.btn:hover span:after {
 	p{
 		font-size: 14px;
 	}
+	.desc{
+		font-size: 14px;
+	}
 	
+}
+@media screen and (max-width: 486px){
+	.desc{
+		font-size: 12px;
+	}
+	.smd{
+		display: none;
+	}
+
 }
 
 #footer{
@@ -196,7 +209,6 @@ button.btn:hover span:after {
 	background-color: #efefef;
 	text-align: center;
 	right: 0;
-	bottom: 0;
 	left: 0;
 	padding: 1rem;
 }	
